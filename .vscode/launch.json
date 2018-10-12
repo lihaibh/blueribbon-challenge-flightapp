@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - FlightApp",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "stopOnEntry": false,
+      "mainClass": "flightapp.FlightApp",
+      "args": "",
+      "projectName": "myproject"
+    },
+    {
+      "type": "java",
+      "name": "Launch Current Main File",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "build",
+      "stopOnEntry": false,
+      "projectName": "myproject",
+      "console": "internalConsole",
+      "mainClass": "flightapp.FlightApp"
+    }
+  ]
+}
